@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Fleet.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class FleetsController : ControllerBase
     {
         private readonly IFleetService _fleetService;
